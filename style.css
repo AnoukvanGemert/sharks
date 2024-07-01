@@ -7,3 +7,8 @@ body {
 img[alt="sharkicon"] {
     height: 40px;
 }
+
+.dropdown-menu .dropdown-item:hover {
+    background-color: transparent;
+    text-decoration-line: underline;
+}
