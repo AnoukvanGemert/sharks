@@ -1,10 +1,10 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <meta charset="utf-8" />
+    <meta charset="utf-8"/>
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <title>Sharks</title>
-    <meta name="description" content="" />
+    <meta name="description" content="Sharks"/>
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <link rel="stylesheet" href="style.css" />
     <link
@@ -58,16 +58,14 @@
               menu
             </a>
             <ul class="dropdown-menu">
-              <li><a class="dropdown-item fs-5" href="#">soorten</a></li>
-
-              <li><a class="dropdown-item fs-5" href="#">facts</a></li>
-
-              <li><a class="dropdown-item fs-5" href="#">Quiz</a></li>
-              <li><a class="dropdown-item fs-5" href="#">Nieuws letter</a></li>
+              <li><a class="dropdown-item fs-5 link-body-emphasis" href="soorten.html">Soorten</a></li>
+              <li><a class="dropdown-item fs-5 link-body-emphasis" href="facts.html">Facts</a></li>
+              <li><a class="dropdown-item fs-5 link-body-emphasis" href="quiz.html">Quiz</a></li>
+              <li><a class="dropdown-item fs-5 link-body-emphasis" href="nieuwsletter.html">Nieuws letter</a></li>
             </ul>
           </div>
           <div class="p-2 fs-3">
-            sharkblood
+            <a href="index.html" class="link-body-emphasis text-decoration-none">SharkBlood</a>
             <img
               src="img/shark-icon-png-9.png"
               class="img-fluid"
@@ -75,7 +73,7 @@
             />
           </div>
           <div class="p-2 fs-5">
-            <button type="button" class="btn fs-5">Contact</button>
+            <a  class= "text-decoration-none fs-5 link-body-emphasis"  href="#contact">Contact</a>
           </div>
         </div>
 
@@ -178,15 +176,22 @@
     </div>
 
     <div
-      class="container-fluid py-5 mb-4 d-flex justify-content-center Contact bg-secondary-subtle"
+      class="container-fluid py-5  d-flex justify-content-center Contact bg-secondary-subtle"
     >
-      <div class="container" data-bs-theme="dark">
+      <div class="container">
         <div class="row">
-          <div class="col-6 d-flex align-self-center">
-            <p class="">Heb je nog vragen of wil je is een keer dat een van de echte expert bij jouw op school een presentatie geeft over haaien? neem dan hier contact op!</p>
+          <div class="col-sm-6 d-flex  row mt-3 ">
+            <h2 class="mb-3">Contact</h2>
+            <p >Heb je nog vragen of wil je is een keer dat een van de echte expert bij jouw op school een presentatie geeft over haaien? neem dan hier contact op!</p> 
+            <div class="d-flex justify-content-center align-items-end" style="color: rgb(149, 149, 149)">
+              <i class="bi bi-instagram mx-2"></i>
+              <i class="bi bi-github mx-2"></i>
+              <i class="bi bi-linkedin mx-2"></i>
+              <i class="bi bi-twitter mx-2"></i>
             
+            </div>
           </div>
-          <div class="col-6">
+          <div class="col-sm-6 mt-3" id="contact">
             <div class="row g-3 mb-2">
               <div class="col-sm">
                 <form class="form-floating">
@@ -221,6 +226,7 @@
             </div>
             <button type="button" class="btn btn-primary">Verzend</button>
           </div>
+          
         </div>
       </div>
     </div>
@@ -228,6 +234,6 @@
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/5.1.3/js/bootstrap.bundle.min.js"></script>
 
     <script src="script.js" async defer></script>
-    <script src="path/to/bootstrap.bundle.min.js"></script>
+    
   </body>
 </html>
